@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Petcare</string>
+    <string name="signup">Signup</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginhere">Login here</string>
+    <string name="login">Login</string>
+    <string name="signuphere">Sign Up Here</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308987258145",
+    "firebase_url": "https://hello-d0e48.firebaseio.com",
+    "project_id": "hello-d0e48",
+    "storage_bucket": "hello-d0e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308987258145:android:5f956471fc8781f8838a60",
+        "android_client_info": {
+          "package_name": "com.example.hello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308987258145-pg2fq026eph8lruoqlbv2q5lhpj9pdg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3vksdcdQI-cmtZbQ5dXifnOVwUpPw3Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308987258145-pg2fq026eph8lruoqlbv2q5lhpj9pdg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
