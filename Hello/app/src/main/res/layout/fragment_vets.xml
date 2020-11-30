@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/fragment_bg">
+
+        <ImageView
+            android:id="@+id/s1"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/vet2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/Name1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/s1"
+            android:text="Pet clinic1"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/des1"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_below="@+id/Name1"
+            android:text="Andheri near mangalam sec 65 plot1society contact-984657776"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/s2"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@id/s1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/doc1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/Name2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/s2"
+            android:text="Petcare clinic "
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/Name1"
+            android:layout_marginLeft="90dp"
+            />
+        <TextView
+            android:id="@+id/des2"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_below="@+id/Name2"
+            android:layout_toRightOf="@id/des1"
+            android:text="Malad west near taiwamn rest sector44 contact-56878894"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"/>
+        <ImageView
+            android:id="@+id/s3"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/vet3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/des1"/>
+
+        <TextView
+            android:id="@+id/Name3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/s3"
+            android:text="everhealth clinic "
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/des3"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_below="@+id/Name3"
+            android:text="Andheri near mangalam sec 65 plot1society contact-984657776"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/s4"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@id/s3"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/vet2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/des2"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/Name4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/s4"
+            android:text="Pet health"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/Name3"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/des4"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_below="@+id/Name4"
+            android:layout_toRightOf="@id/des3"
+            android:text="Malad west near taiwamn restuarant sector44 contact-56878894"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"/>
+        <ImageView
+            android:id="@+id/s5"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/vet2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/des3"/>
+
+        <TextView
+            android:id="@+id/Name5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/s5"
+            android:text="everhealth clinic "
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/des5"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_below="@+id/Name5"
+            android:text="rosevilla vashi sec 65 plot1society contact-984657776"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

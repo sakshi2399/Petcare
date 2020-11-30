@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/fragment_bg">
+        <!--android:background="@drawable/fragment_bg"-->
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/ngo2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtName1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/image1"
+            android:text="Hilltop NGO"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/Des1"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/txtName1"
+            android:text="vashi near fr angnels call 876964456"
+            android:layout_toRightOf="@+id/image1"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/image1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ngo3"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/txtName2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Des1"
+            android:text="Strad Ngo"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/image2"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/Des2"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/txtName2"
+            android:layout_toRightOf="@id/image2"
+            android:text="sector 22  contact-86654332"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/ngo2"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/image2"/>
+
+        <TextView
+            android:id="@+id/txtName3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Des2"
+            android:text="NGO1 "
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image3"
+            android:textSize="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/Des3"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/txtName3"
+            android:layout_toRightOf="@id/image3"
+            android:text="Malad west near villa contact-56878894"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="@drawable/ngo1"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/image3"/>
+
+        <TextView
+            android:id="@+id/txtName4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/Des3"
+            android:text="Petcare ngo "
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image4"
+            android:textSize="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/Des4"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/txtName4"
+            android:layout_toRightOf="@id/image4"
+            android:text=" andheri east sector 44 contact-56878894"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="-3dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:gravity="bottom|right"
+            app:backgroundTint="@color/colo"
+            app:srcCompat="@drawable/ic_pet" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+

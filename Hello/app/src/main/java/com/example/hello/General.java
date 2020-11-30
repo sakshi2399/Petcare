@@ -21,6 +21,7 @@ public class General extends AppCompatActivity {
     Button buttonLogin;
     TextView textViewSignUp;
     ProgressBar progressBar;
+    TextView textViewGuestlogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +32,20 @@ public class General extends AppCompatActivity {
         textInputEditTextPassword = findViewById(R.id.password);
         buttonLogin = findViewById(R.id.buttonLogin);
         textViewSignUp = findViewById(R.id.signUpText);
+        textViewGuestlogin = findViewById(R.id.GuestloginText);
         progressBar = findViewById(R.id.progress);
         textViewSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Registeration.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        textViewGuestlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),guest_my_pets.class);
                 startActivity(intent);
                 finish();
             }
@@ -76,7 +86,7 @@ public class General extends AppCompatActivity {
 
                                     if (result.equals("Login Success")) {
                                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                        Intent intent = new Intent(getApplicationContext(), HomePage.class);
                                         startActivity(intent);
                                         finish();
                                     } else {
