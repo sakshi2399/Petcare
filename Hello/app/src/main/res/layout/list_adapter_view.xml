@@ -10,8 +10,9 @@
         <ImageView
             android:id="@+id/picturePet"
             android:src="@drawable/ic_launcher_background"
-            android:layout_height="70dp"
-            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginTop="8dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="16dp"/>
 
@@ -21,9 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="90dp"
-        android:layout_marginStart="90dp"
+        android:layout_marginStart="130dp"
         android:weightSum="2"
         android:gravity="top"
         android:orientation="horizontal"
@@ -89,7 +90,7 @@
             android:id="@+id/textPetSpecies"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="24"
+            android:layout_weight="25"
             android:text="Species"
             android:textSize="15sp" />
 
@@ -99,7 +100,7 @@
             android:id="@+id/textPetBreeds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="23"
+            android:layout_weight="24"
             android:text="Type"
             android:textSize="15sp" />
 
@@ -108,7 +109,7 @@
             android:id="@+id/textPetGenderTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="27"
+            android:layout_weight="26"
             android:text="Gender:"
             android:textSize="15sp" />
 
@@ -116,7 +117,7 @@
             android:id="@+id/textPetGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="26"
+            android:layout_weight="25"
             android:text="Unknown"
             android:textSize="15sp" />
 
@@ -145,7 +146,7 @@
         android:orientation="horizontal"
         android:text="Type Pet"
         android:textSize="15sp"
-        android:weightSum="25">
+        android:weightSum="100">
 
 
 
@@ -153,7 +154,7 @@
             android:id="@+id/textForMoreInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="6"
+            android:layout_weight="27"
             android:text="For More Info,"
             android:fontFamily="sans-serif-light"
             android:textColor="@android:color/black"
@@ -165,7 +166,7 @@
             android:id="@+id/textContact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="10"
+            android:layout_weight="39"
             android:text="Contact:"
             android:textSize="15sp" />
 
@@ -173,7 +174,7 @@
             android:id="@+id/textPetPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="9"
+            android:layout_weight="34"
             android:text="9876543210"
             android:textColor="@android:color/holo_blue_light"
             android:textSize="15sp" />
@@ -190,4 +191,14 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="description_zoom_touch_close" />
+
+
 </RelativeLayout>
+
+
